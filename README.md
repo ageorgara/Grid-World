@@ -1,4 +1,7 @@
 # Grid-World
+
+## created using java
+
 Creates NxM grid-world.
 Each grid-world contains 3 types of cells: (i) cell-wall, (ii) cell-grass, and (iii) cell-land.
 Each cell has a "cost of traverse": for cell-wall is set Int.MAX_VALUE, for cell-grass is adjustable, and for cell-land is set to 1.
@@ -8,3 +11,4 @@ The grid-world may be random (it creates a new one and stores it in a "newRandom
 Visualizes the wold as:
 
 ![Alt text](world.png?raw=true "Title")
+
