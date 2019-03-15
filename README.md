@@ -8,7 +8,23 @@ Each cell has a "cost of traverse": for cell-wall is set Int.MAX_VALUE, for cell
 
 The grid-world may be random (it creates a new one and stores it in a "newRandomLevel.world" file), or upload an existing grid world from a file.
 
+### How to run: 
+```
+  java GridGenerator
+```
+generates a random grid-world of dimensions 13x9,
+
+```
+  java GridGenerator -d 15 8
+```
+generates a random grild world of dimensions 15x8,
+
+```
+  java GridGenerator -i example_worlds/default.world
+``` 
+uploads the grid wolrd from file.
+
+
 Visualizes the wold as:
 
 ![Alt text](world.png?raw=true "Title")
-
