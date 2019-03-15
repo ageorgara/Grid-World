@@ -25,6 +25,6 @@ generates a random grild world of dimensions 15x8,
 uploads the grid wolrd from file.
 
 
-Visualizes the wold as:
+### Visualize
 
 ![Alt text](world.png?raw=true "Title")
